@@ -16,10 +16,10 @@
     05/10/2011 - Fernando Culell: Initial creation. 
 */
 
-var pass = true;
-var start = Number(StartNumber);
-var end = Number(EndNumber);
-var message = `The value must be in the range ${start}-${end}.`;
+let pass = true;
+const start = Number(StartNumber);
+const end = Number(EndNumber);
+const message = `The value must be in the range ${start}-${end}.`;
 
 for (const field of FieldList) {
     if (
